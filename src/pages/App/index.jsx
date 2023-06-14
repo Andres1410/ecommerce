@@ -45,7 +45,9 @@ const App = () => {
     <ShoppingCartProvider>
       <BrowserRouter>
         <AppRoutes />
+        {/* Navbar menu */}
         <Navbar />
+        {/* Agregar al cart to pay */}
         <ChekautSideMenu />
       </BrowserRouter>
     </ShoppingCartProvider>
